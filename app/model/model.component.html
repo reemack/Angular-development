@@ -1,0 +1,14 @@
+
+<ul>
+<div >
+<li *ngFor ="let item of listItems" class="main">
+   <div>{{item.model}}</div>
+   <div>{{item.cell}}</div>
+   <div><select>item<option *ngFor="let item of list">{{item}}</option>
+     </select>
+   </div>
+   <div class="reset">  <div class="button">Reset</div>
+   <span class="new-icon"><fa-icon [icon]="myPenToSquareIcon"></fa-icon>&nbsp;&nbsp;&nbsp;<fa-icon [icon]="myTrashIcon"></fa-icon></span></div>
+</li>
+</div>
+</ul>
