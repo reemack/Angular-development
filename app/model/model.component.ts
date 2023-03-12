@@ -13,7 +13,6 @@ export class ModelComponent {
   myTrashIcon=faTrash;
   myPenToSquareIcon=faPenToSquare;
   myfaSteamIcon=faSteam;
-  list:any[]=['item1','item1','item1'];
    listItems:any[]=[{model:"Model1",cell:"Physics"},{model:"Model2",cell:"Physics"},{model:"Model3",cell:"Physics"},{model:"Model4",cell:"Physics"},{model:"Model5",cell:"Physics"}];
    
 }
