@@ -2,7 +2,7 @@
 <ul>
 <div >
 <li *ngFor ="let item of listItems" class="main">
-   <div>{{item.model}}</div>
+   <div><fa-icon [icon]="myfaSteamIcon"></fa-icon>&nbsp;{{item.model}}</div>
    <div>{{item.cell}}</div>
    <div><select>item<option *ngFor="let item of list">{{item}}</option>
      </select>
@@ -12,3 +12,4 @@
 </li>
 </div>
 </ul>
+<fa-icon [icon]="myfaSteamIcon"></fa-icon>
