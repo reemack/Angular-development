@@ -1,0 +1,51 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F4F7FA;
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F4F7FA;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.reset{
+    display: inline-block;
+    height: 30px;
+    background-color: #F4F7FA;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    margin:0 5px;
+    transition: all .3s ease-out;
+}
+.reset .new-icon{
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.reset .button{
+    margin: 10px;
+    width: 100px;
+    line-height: 10px;
+    box-sizing: border-box;
+}
+.reset:hover{
+     width: 200px;
+     height: 50px;
+     display: flex;
+}
+
